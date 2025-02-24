@@ -1,0 +1,2 @@
+let sum_list lst = List.fold_left (+) 0 lst;;
+print_int (sum_list [1; 2; 3; 4; 5]);;
